@@ -199,8 +199,8 @@ public class MainActivity extends AppCompatActivity {
                     search();
                     return;
                 } else {
-                    search();
                     Toast.makeText(this, "Required permissions are not granted!", Toast.LENGTH_SHORT).show();
+                    search();
                 }
                 break;
             }
